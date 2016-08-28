@@ -1,4 +1,7 @@
+[quirks]
 quirk1=snd-hda-intel.model=acer-aspire-4930g
-desc1=Specifics for Realtek ALC888 on Aspire 4930/4935/4935g and enable correctly every channel
 quirk2=tpm_tis.blacklist=yes
+
+[descriptions]
+desc1=Specifics for Realtek ALC888 on Aspire 4930/4935/4935g and enable correctly every channel
 desc2=Disables tpm_tis module cause loaded with no device on laptop
