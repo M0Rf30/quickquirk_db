@@ -1,0 +1,7 @@
+[quirks]
+quirk1:snd-hda-intel.model=intel-mac-auto
+quirk2:video=SVIDEO-1:d
+
+[descriptions]
+desc1:Specifics for Realtek ALC889A on MacBook4,1 and enable correctly every channel
+desc2:Disables SVIDEO in order to correctly manage VT change and drm_kms_helper kernel module
